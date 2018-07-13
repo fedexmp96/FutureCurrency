@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">FutureCurrency</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="seleccione_moneda_text_view">Seleccione una moneda para estadisticas</string>
+    <string name="seleccione_moneda_conversion_text_view">Seleccione conversion para estadisticas</string>
+    <string name="recordatorio_tarjetas">Todas las monedas que cargue se mostraran en el menu principal (Monedas) y las podra eliminar desde dicho menu</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

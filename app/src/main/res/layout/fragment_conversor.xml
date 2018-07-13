@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        android:weightSum="100"
+
+        >
+
+        <EditText
+            android:id="@+id/cantidadConvertir"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="100"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Quantity"
+            android:inputType="numberDecimal"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        android:weightSum="100">
+
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextViewCryptoMoneda"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="33"
+            android:gravity="center"
+            android:hint="Currency"
+            android:inputType="text"
+            android:maxLines="1"
+
+            />
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextViewCryptoMonedaConvertir"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="33"
+            android:gravity="center"
+            android:hint="Currency to convert"
+            android:inputType="text"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+
+            />
+
+        <Button
+            android:id="@+id/buttonEnviar"
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:layout_weight="34"
+            android:backgroundTint="@color/colorCardViewBackground"
+            android:text="send"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvCotizacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="8dp"
+        android:textColor="#558"
+        android:textStyle="bold" />
+
+</LinearLayout>
